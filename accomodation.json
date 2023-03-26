@@ -1,0 +1,476 @@
+[
+  {
+    "nume": "Hotel Imperial Premium",
+    "tip_proprietate": "Hotel",
+    "capacitate": "20",
+    "stele": "4",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Recepție non-stop",
+      "Sală fitness",
+      "Saună",
+      "Spa"
+    ],
+    "facilitati_camera": [
+      "Frigider",
+      "Prosoape",
+      "Cadă",
+      "Tv",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Bine 7+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Hotel Exclusiv",
+    "tip_proprietate": "Hotel",
+    "capacitate": "12",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Recepție non-stop",
+      "Spa"
+    ],
+    "facilitati_camera": [
+      "Frigider",
+      "Prosoape",
+      "Cadă",
+      "Tv",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Foarte bine 8+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Pensiunea Vlad",
+    "tip_proprietate": "Pensiune",
+    "capacitate": "6",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Recepție non-stop"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Bucătărie",
+      "Frigider",
+      "Prosoape",
+      "Cadă",
+      "Tv",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Bine 7+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Villa Rosa",
+    "tip_proprietate": "Vilă",
+    "capacitate": "4",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Frigider",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Tv",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Freeborn Hostel",
+    "tip_proprietate": "Hostel",
+    "capacitate": "10",
+    "stele": "1",
+    "mic_dejun": "nu",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Frigider",
+      "Prosoape",
+      "Tv",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Foarte bine 8+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Boutique Pension Park",
+    "tip_proprietate": "Pensiune",
+    "capacitate": "20",
+    "stele": "4",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Bucătărie",
+      "Frigider",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Tv",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Foarte bine 8+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Hotel Perla D'Oro",
+    "tip_proprietate": "Hotel",
+    "capacitate": "30",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Sală fitness",
+      "Saună",
+      "Piscină"
+    ],
+    "facilitati_camera": [
+      "Frigider",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Tv",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Foarte bine 8+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Ultracentral Cathedral Apartament Timisoara",
+    "tip_proprietate": "Apartament",
+    "capacitate": "4",
+    "stele": "3",
+    "mic_dejun": "nu",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Bucătărie",
+      "Frigider",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Tv",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Skyline Central Apartment",
+    "tip_proprietate": "Apartament",
+    "capacitate": "2",
+    "stele": "3",
+    "mic_dejun": "nu",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Hotel Oxford Inns&Suites",
+    "tip_proprietate": "Hotel",
+    "capacitate": "20",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Foarte bine 8+",
+    "distanta_centru": ""
+  },
+  {
+    "nume": "City Inn Premium Apartment",
+    "tip_proprietate": "Apartament",
+    "capacitate": "2",
+    "stele": "3",
+    "mic_dejun": "nu",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Recepție non-stop"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Priză lângă pat",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Casa Palace",
+    "tip_proprietate": "Pensiune",
+    "capacitate": "26",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Prosoape",
+      "Priză lângă pat",
+      "Tv",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Foarte bine 8+",
+    "distanta_centru": ""
+  },
+  {
+    "nume": "Savoya Residence",
+    "tip_proprietate": "Apartament",
+    "capacitate": "4",
+    "stele": "3",
+    "mic_dejun": "nu",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Priză lângă pat",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Casa La Fayette",
+    "tip_proprietate": "Hotel",
+    "capacitate": "20",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Priză lângă pat",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Apartament Baroc",
+    "tip_proprietate": "Apartament",
+    "capacitate": "4",
+    "stele": "3",
+    "mic_dejun": "nu",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Recepție non-stop"
+    ],
+    "facilitati_camera": [
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Priză lângă pat",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Elegance Residence",
+    "tip_proprietate": "Apartament",
+    "capacitate": "2",
+    "stele": "3",
+    "mic_dejun": "nu",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Priză lângă pat",
+      "Uscător de păr",
+      "Priveliște"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Old Town Hotel",
+    "tip_proprietate": "Hotel",
+    "capacitate": "26",
+    "stele": "4",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Recepție non-stop"
+    ],
+    "facilitati_camera": [
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Do Stil Boutique Hotel",
+    "tip_proprietate": "Hotel",
+    "capacitate": "8",
+    "stele": "3",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Prosoape"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  },
+  {
+    "nume": "Pensiunea Nora Prestige",
+    "tip_proprietate": "Hotel",
+    "capacitate": "30",
+    "stele": "4",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare",
+      "Recepție non-stop",
+      "Sală fitness",
+      "Saună",
+      "Spa",
+      "Masaj",
+      "Jacuzzi",
+      "Piscină"
+    ],
+    "facilitati_camera": [
+      "Balcon",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Cadă",
+      "Priză lângă pat",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Foarte bine 8+",
+    "distanta_centru": ""
+  },
+  {
+    "nume": "Mosaico Alfetta Hostel",
+    "tip_proprietate": "Hostel",
+    "capacitate": "16",
+    "stele": "1",
+    "mic_dejun": "da",
+    "facilitati": [
+      "Wi-fi",
+      "Parcare"
+    ],
+    "facilitati_camera": [
+      "Bucătărie",
+      "Frigider",
+      "Tv",
+      "Prosoape",
+      "Priză lângă pat",
+      "Uscător de păr"
+    ],
+    "baie": "da",
+    "scor": "Superb 9+",
+    "distanta_centru": "Mai puțin de 3 km"
+  }
+]

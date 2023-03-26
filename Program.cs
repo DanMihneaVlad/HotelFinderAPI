@@ -1,3 +1,5 @@
+using hotelfinder.Logic;
+using hotelfinder.Logic.Interfaces;
 using hotelfinder.Services;
 using hotelfinder.Services.Interfaces;
 
@@ -11,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IQuestionService, QuestionService>();
+builder.Services.AddTransient<IHotelFinderLogic, HotelFinderLogic>();
 
 var app = builder.Build();
 

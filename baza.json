@@ -1,0 +1,48 @@
+[
+  {
+    "nume": "tip_proprietate",
+    "intrebare": "Care este tipul proprietății?",
+    "raspunsuri": [ "Apartament", "Pensiune", "Hotel", "Hostel", "Vilă" ]
+  },
+  {
+    "nume": "capacitate",
+    "intrebare": "Câte persoane doresc să se cazeze?",
+    "raspunsuri": [ 1, 2, 3, 4, 5, 6 ]
+  },
+  {
+    "nume": "stele",
+    "intrebare": "Câte stele doresc să aibă proprietatea?",
+    "raspunsuri": [ 2, 3, 4, 5, "nu contează" ]
+  },
+  {
+    "nume": "mic_dejun",
+    "intrebare": "Se oferă micul dejun?",
+    "raspunsuri": [ "da", "nu" ]
+  },
+  {
+    "nume": "facilitati",
+    "intrebare": "Ce facilități doresc să aibă proprietatea?",
+    "raspunsuri": [ "Wi-fi", "Parcare", "Recepție non-stop", "Sală fitness", "Saună", "Spa", "Masaj", "Jacuzzi", "Piscină" ]
+  },
+  {
+    "nume": "facilitati_camera",
+    "intrebare": "Ce facilități doresc să aibă camera?",
+    "raspunsuri": [ "Balcon", "Bucatarie", "Frigider", "Tv", "Prosoape", "Cadă", "Priză lângă pat", "Uscător de păr", "Priveliște" ]
+
+  },
+  {
+    "nume": "baie",
+    "intrebare": "Doresc să am baie privată?",
+    "raspunsuri": [ "da", "nu" ]
+  },
+  {
+    "nume": "scor",
+    "intrebare": "Care e scorul proprietății dorite?",
+    "raspunsuri": [ "Plăcut 6+", "Bine 7+", "Foarte bine 8+", "Superb 9+", "Nu mă interesează" ]
+  },
+  {
+    "nume": "distanta_centru",
+    "intrebare": "Care este distanța față de centru?",
+    "raspunsuri": [ "Mai puțin de 3 km", "Nu mă interesează" ]
+  }
+]

@@ -1,4 +1,5 @@
-﻿using hotelfinder.Models;
+﻿using hotelfinder.Logic.Interfaces;
+using hotelfinder.Models;
 using hotelfinder.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,10 +10,12 @@ namespace hotelfinder.Controllers
     public class QuestionsController : ControllerBase
     {
         private readonly IQuestionService _questionService;
+        private readonly IHotelFinderLogic _hotelFinderLogic;
 
-        public QuestionsController(IQuestionService questionService)
+        public QuestionsController(IQuestionService questionService, IHotelFinderLogic hotelFinderLogic)
         {
             _questionService = questionService;
+            _hotelFinderLogic = hotelFinderLogic;
         }
 
         [HttpGet(Name = "GetQuestions")]
@@ -22,11 +25,12 @@ namespace hotelfinder.Controllers
             return Ok(questions);
         }
 
-        [HttpPost(Name = "CreateQuestion")]
-        public async Task<ActionResult<Question>> CreateQuestion([FromBody] Question question)
+        [HttpPost(Name = "GetHotels")]
+        public async Task<ActionResult<List<Hotel>>> GetHotels([FromBody] List<Question> answers)
         {
-            var addedQuestion = await _questionService.PostAsync(question);
-            return Ok(addedQuestion);
+            List<Hotel> hotels = _hotelFinderLogic.GetHotels(answers);
+            
+            return Ok(hotels);
         }
     }
 }

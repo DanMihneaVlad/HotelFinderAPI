@@ -1,9 +1,14 @@
-﻿namespace hotelfinder.Models
+﻿using Newtonsoft.Json;
+
+namespace hotelfinder.Models
 {
     public class Question
     {
-        public int Id { get; set; }
+        [JsonProperty("nume")]
+        public string Name { get; set; }
+        [JsonProperty("intrebare")]
         public string QuestionText { get; set; }
+        [JsonProperty("raspunsuri")]
         public List<string> Answers { get; set; }
     }
 }
