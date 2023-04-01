@@ -12,19 +12,20 @@ namespace hotelfinder.Logic
         public List<Hotel> GetHotels(List<Question> answers)
         {
             _hotels = new JsonHelper().LoadHotelsJson();
+            List<Hotel> validHotels = new List<Hotel>();
             var hotelValidator = new HotelValidator(answers);
 
             foreach (Hotel hotel in _hotels)
             {
                 bool isHotelValid = hotelValidator.ValidateHotel(hotel);
 
-                if (!isHotelValid)
+                if (isHotelValid)
                 {
-                    _hotels.Remove(hotel);
+                    validHotels.Add(hotel);
                 }
             }
 
-            return _hotels;
+            return validHotels;
         }
     }
 }
